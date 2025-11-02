@@ -1,0 +1,494 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"11 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\7-Segment.c
+[v _sevSegNum sevSegNum `(v  1 e 1 0 ]
+"57
+[v _sevSegFull sevSegFull `(v  1 e 1 0 ]
+"84
+[v _sevOff sevOff `(v  1 e 1 0 ]
+"25 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\BuzzerTones.c
+[v _A_low A_low `(v  1 e 1 0 ]
+"37
+[v _A_hi A_hi `(v  1 e 1 0 ]
+"49
+[v _B_low B_low `(v  1 e 1 0 ]
+"61
+[v _B_hi B_hi `(v  1 e 1 0 ]
+"73
+[v _C_low C_low `(v  1 e 1 0 ]
+"85
+[v _C_hi C_hi `(v  1 e 1 0 ]
+"97
+[v _D D `(v  1 e 1 0 ]
+"109
+[v _E E `(v  1 e 1 0 ]
+"121
+[v _G G `(v  1 e 1 0 ]
+"133
+[v _space space `(v  1 e 1 0 ]
+"143
+[v _entryTone entryTone `(v  1 e 1 0 ]
+"158
+[v _exitTone exitTone `(v  1 e 1 0 ]
+"173
+[v _exitErrorTone exitErrorTone `(v  1 e 1 0 ]
+"185
+[v _entryErrorTone entryErrorTone `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"17 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LCD_Display.c
+[v _startLCD startLCD `(v  1 e 1 0 ]
+"29
+[v _sendLCD sendLCD `(v  1 e 1 0 ]
+"44
+[v _msgLCD msgLCD `(v  1 e 1 0 ]
+"18 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _errorLED errorLED `(v  1 e 1 0 ]
+"25
+[v _entryLED entryLED `(v  1 e 1 0 ]
+"37
+[v _exitLED exitLED `(v  1 e 1 0 ]
+"49
+[v _nearMaxLED nearMaxLED `(v  1 e 1 0 ]
+"53
+[v _maxLED maxLED `(v  1 e 1 0 ]
+"57
+[v _offLED offLED `(v  1 e 1 0 ]
+"38 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+"49 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\ProgFunctions.c
+[v _entryF entryF `(v  1 e 1 0 ]
+"72
+[v _exitF exitF `(v  1 e 1 0 ]
+"94
+[v _empty empty `(v  1 e 1 0 ]
+"128
+[v _maxCap maxCap `(v  1 e 1 0 ]
+"162
+[v _openCap openCap `(v  1 e 1 0 ]
+"184
+[v _nearMax nearMax `(v  1 e 1 0 ]
+[s S73 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"408 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18877.h
+[u S82 . 1 `S73 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES82  1 e 1 @12 ]
+"453
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+[s S36 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"470
+[u S45 . 1 `S36 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES45  1 e 1 @13 ]
+"515
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"577
+[v _PORTD PORTD `VEuc  1 e 1 @15 ]
+[s S333 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"652
+[u S338 . 1 `S333 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES338  1 e 1 @16 ]
+"677
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"739
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"801
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"863
+[v _TRISD TRISD `VEuc  1 e 1 @20 ]
+"925
+[v _TRISE TRISE `VEuc  1 e 1 @21 ]
+"33494
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"34114
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"34734
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"35354
+[v _ANSELD ANSELD `VEuc  1 e 1 @8025 ]
+"35788
+[v _ANSELE ANSELE `VEuc  1 e 1 @8036 ]
+"13 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\Main.c
+[v _shoppers shoppers `i  1 e 2 0 ]
+"14
+[v _capLimitStatus capLimitStatus `i  1 e 2 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+{
+"93
+} 0
+"17 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LCD_Display.c
+[v _startLCD startLCD `(v  1 e 1 0 ]
+{
+"27
+} 0
+"162 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\ProgFunctions.c
+[v _openCap openCap `(v  1 e 1 0 ]
+{
+"182
+} 0
+"184
+[v _nearMax nearMax `(v  1 e 1 0 ]
+{
+"204
+} 0
+"49 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _nearMaxLED nearMaxLED `(v  1 e 1 0 ]
+{
+"51
+} 0
+"128 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\ProgFunctions.c
+[v _maxCap maxCap `(v  1 e 1 0 ]
+{
+"160
+} 0
+"57 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\7-Segment.c
+[v _sevSegFull sevSegFull `(v  1 e 1 0 ]
+{
+"58
+[v sevSegFull@full full `[3]uc  1 a 3 1 ]
+"57
+[v sevSegFull@F12171 F12171 `[3]uc  1 s 3 F12171 ]
+"82
+} 0
+"53 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _maxLED maxLED `(v  1 e 1 0 ]
+{
+"55
+} 0
+"72 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\ProgFunctions.c
+[v _exitF exitF `(v  1 e 1 0 ]
+{
+"92
+} 0
+"158 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\BuzzerTones.c
+[v _exitTone exitTone `(v  1 e 1 0 ]
+{
+"171
+} 0
+"37 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _exitLED exitLED `(v  1 e 1 0 ]
+{
+"47
+} 0
+"185 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\BuzzerTones.c
+[v _entryErrorTone entryErrorTone `(v  1 e 1 0 ]
+{
+"193
+} 0
+"97
+[v _D D `(v  1 e 1 0 ]
+{
+"98
+[v D@x x `i  1 a 2 38 ]
+"99
+[v D@loopNum loopNum `i  1 a 2 36 ]
+"97
+[v D@sec sec `f  1 p 4 31 ]
+"107
+} 0
+"94 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\ProgFunctions.c
+[v _empty empty `(v  1 e 1 0 ]
+{
+"126
+} 0
+"57 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _offLED offLED `(v  1 e 1 0 ]
+{
+"59
+} 0
+"173 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\BuzzerTones.c
+[v _exitErrorTone exitErrorTone `(v  1 e 1 0 ]
+{
+"183
+} 0
+"73
+[v _C_low C_low `(v  1 e 1 0 ]
+{
+"74
+[v C_low@x x `i  1 a 2 38 ]
+"75
+[v C_low@loopNum loopNum `i  1 a 2 36 ]
+"73
+[v C_low@sec sec `f  1 p 4 31 ]
+"83
+} 0
+"49
+[v _B_low B_low `(v  1 e 1 0 ]
+{
+"50
+[v B_low@x x `i  1 a 2 38 ]
+"51
+[v B_low@loopNum loopNum `i  1 a 2 36 ]
+"49
+[v B_low@sec sec `f  1 p 4 31 ]
+"59
+} 0
+"61
+[v _B_hi B_hi `(v  1 e 1 0 ]
+{
+"62
+[v B_hi@x x `i  1 a 2 38 ]
+"63
+[v B_hi@loopNum loopNum `i  1 a 2 36 ]
+"61
+[v B_hi@sec sec `f  1 p 4 31 ]
+"71
+} 0
+"25
+[v _A_low A_low `(v  1 e 1 0 ]
+{
+"26
+[v A_low@x x `i  1 a 2 38 ]
+"27
+[v A_low@loopNum loopNum `i  1 a 2 36 ]
+"25
+[v A_low@sec sec `f  1 p 4 31 ]
+"35
+} 0
+"37
+[v _A_hi A_hi `(v  1 e 1 0 ]
+{
+"38
+[v A_hi@x x `i  1 a 2 38 ]
+"39
+[v A_hi@loopNum loopNum `i  1 a 2 36 ]
+"37
+[v A_hi@sec sec `f  1 p 4 31 ]
+"47
+} 0
+"18 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _errorLED errorLED `(v  1 e 1 0 ]
+{
+"23
+} 0
+"49 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\ProgFunctions.c
+[v _entryF entryF `(v  1 e 1 0 ]
+{
+"70
+} 0
+"11 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\7-Segment.c
+[v _sevSegNum sevSegNum `(v  1 e 1 0 ]
+{
+"12
+[v sevSegNum@digits digits `[10]uc  1 a 10 5 ]
+"24
+[v sevSegNum@dig4 dig4 `i  1 a 2 21 ]
+"23
+[v sevSegNum@dig3 dig3 `i  1 a 2 19 ]
+"22
+[v sevSegNum@dig2 dig2 `i  1 a 2 17 ]
+"21
+[v sevSegNum@dig1 dig1 `i  1 a 2 15 ]
+"11
+[v sevSegNum@shoppers shoppers `i  1 p 2 2 ]
+[v sevSegNum@F12164 F12164 `[10]uc  1 s 10 F12164 ]
+"55
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 1 ]
+[v ___awmod@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 9 ]
+[v ___awmod@dividend dividend `i  1 p 2 11 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"84 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\7-Segment.c
+[v _sevOff sevOff `(v  1 e 1 0 ]
+{
+"105
+} 0
+"44 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LCD_Display.c
+[v _msgLCD msgLCD `(v  1 e 1 0 ]
+{
+"45
+[v msgLCD@i i `i  1 a 2 5 ]
+"44
+[v msgLCD@msg msg `*.25uc  1 p 2 2 ]
+"48
+} 0
+"29
+[v _sendLCD sendLCD `(v  1 e 1 0 ]
+{
+[v sendLCD@x x `uc  1 a 1 wreg ]
+[v sendLCD@x x `uc  1 a 1 wreg ]
+[v sendLCD@b b `uc  1 p 1 0 ]
+[v sendLCD@x x `uc  1 a 1 1 ]
+"42
+} 0
+"143 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\BuzzerTones.c
+[v _entryTone entryTone `(v  1 e 1 0 ]
+{
+"156
+} 0
+"133
+[v _space space `(v  1 e 1 0 ]
+{
+"134
+[v space@x x `i  1 a 2 38 ]
+"135
+[v space@loopNum loopNum `i  1 a 2 36 ]
+"133
+[v space@sec sec `f  1 p 4 31 ]
+"139
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S652 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S657 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S660 . 4 `l 1 i 4 0 `d 1 f 4 0 `S652 1 fAsBytes 4 0 `S657 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S660  1 a 4 15 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 9 ]
+[s S729 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S732 . 2 `s 1 i 2 0 `us 1 n 2 0 `S729 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S732  1 a 2 19 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 14 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 13 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 8 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"121 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\BuzzerTones.c
+[v _G G `(v  1 e 1 0 ]
+{
+"122
+[v G@x x `i  1 a 2 38 ]
+"123
+[v G@loopNum loopNum `i  1 a 2 36 ]
+"121
+[v G@sec sec `f  1 p 4 31 ]
+"131
+} 0
+"109
+[v _E E `(v  1 e 1 0 ]
+{
+"110
+[v E@x x `i  1 a 2 38 ]
+"111
+[v E@loopNum loopNum `i  1 a 2 36 ]
+"109
+[v E@sec sec `f  1 p 4 31 ]
+"119
+} 0
+"85
+[v _C_hi C_hi `(v  1 e 1 0 ]
+{
+"86
+[v C_hi@x x `i  1 a 2 38 ]
+"87
+[v C_hi@loopNum loopNum `i  1 a 2 36 ]
+"85
+[v C_hi@sec sec `f  1 p 4 31 ]
+"95
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 30 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 29 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 21 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 7 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 0 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 5 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 12 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 11 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 4 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"25 C:\Users\HUMANOID\MPLABXProjects\group\P6_Shopping_Mall.X\LED_Patterns.c
+[v _entryLED entryLED `(v  1 e 1 0 ]
+{
+"35
+} 0
